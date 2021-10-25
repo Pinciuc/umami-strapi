@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_recipe_components_ingredients",
+  "info": {
+    "name": "Ingredient",
+    "icon": "list"
+  },
+  "options": {},
+  "attributes": {
+    "Ingredient": {
+      "type": "string"
+    }
+  }
+}
