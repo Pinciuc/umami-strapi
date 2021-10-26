@@ -2,11 +2,12 @@
   "collectionName": "components_recipe_components_ingredients",
   "info": {
     "name": "Ingredient",
-    "icon": "list"
+    "icon": "list",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Ingredient": {
+    "name": {
       "type": "string"
     }
   }

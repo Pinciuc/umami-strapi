@@ -517,20 +517,20 @@
       "Article": {
         "required": [
           "id",
-          "Title",
-          "Slug"
+          "title",
+          "slug"
         ],
         "properties": {
           "id": {
             "type": "string"
           },
-          "Title": {
+          "title": {
             "type": "string"
           },
-          "Body": {
+          "body": {
             "type": "string"
           },
-          "MediaImage": {
+          "media_image": {
             "required": [
               "id",
               "name",
@@ -597,38 +597,38 @@
               }
             }
           },
-          "Tags": {
+          "tags": {
             "type": "array",
             "items": {
               "required": [
                 "id",
-                "Name",
-                "Slug"
+                "name",
+                "slug"
               ],
               "properties": {
                 "id": {
                   "type": "string"
                 },
-                "Name": {
+                "name": {
                   "type": "string"
                 },
-                "Description": {
+                "description": {
                   "type": "string"
                 },
-                "Recipes": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "Articles": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
-                },
-                "Slug": {
+                "slug": {
                   "type": "uid"
+                },
+                "articles": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "recipes": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
                 },
                 "localizations": {
                   "type": "array",
@@ -648,7 +648,7 @@
               }
             }
           },
-          "Slug": {
+          "slug": {
             "type": "uid"
           },
           "localizations": {
@@ -656,29 +656,29 @@
             "items": {
               "required": [
                 "id",
-                "Title",
-                "Slug"
+                "title",
+                "slug"
               ],
               "properties": {
                 "id": {
                   "type": "string"
                 },
-                "Title": {
+                "title": {
                   "type": "string"
                 },
-                "Body": {
+                "body": {
                   "type": "string"
                 },
-                "MediaImage": {
+                "media_image": {
                   "type": "string"
                 },
-                "Tags": {
+                "tags": {
                   "type": "array",
                   "items": {
                     "type": "string"
                   }
                 },
-                "Slug": {
+                "slug": {
                   "type": "uid"
                 },
                 "localizations": {
@@ -713,23 +713,23 @@
       },
       "NewArticle": {
         "required": [
-          "Title",
-          "Slug"
+          "title",
+          "slug"
         ],
         "properties": {
-          "Title": {
+          "title": {
             "type": "string"
           },
-          "Body": {
+          "body": {
             "type": "string"
           },
-          "Tags": {
+          "tags": {
             "type": "array",
             "items": {
               "type": "string"
             }
           },
-          "Slug": {
+          "slug": {
             "type": "uid"
           },
           "localizations": {

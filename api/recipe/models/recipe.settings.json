@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "Title": {
+    "title": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -25,7 +25,7 @@
       "type": "string",
       "required": true
     },
-    "CookingTime": {
+    "cooking_time": {
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -34,7 +34,7 @@
       "type": "integer",
       "min": 0
     },
-    "Difficulty": {
+    "difficulty": {
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -49,7 +49,7 @@
       "default": "Medium",
       "required": true
     },
-    "Ingredients": {
+    "ingredients": {
       "type": "component",
       "repeatable": true,
       "pluginOptions": {
@@ -59,7 +59,7 @@
       },
       "component": "recipe-components.ingredient"
     },
-    "MediaImage": {
+    "media_image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -73,7 +73,7 @@
         }
       }
     },
-    "NumberOfServings": {
+    "number_of_servings": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -83,7 +83,7 @@
       "min": 0,
       "required": true
     },
-    "PreparationTime": {
+    "preparation_time": {
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -93,12 +93,12 @@
       "required": true,
       "min": 0
     },
-    "RecipeCategories": {
-      "via": "Recipes",
+    "recipe_categories": {
+      "via": "recipes",
       "collection": "recipe-category",
       "dominant": true
     },
-    "RecipeInstruction": {
+    "recipe_instruction": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -107,7 +107,7 @@
       "type": "richtext",
       "required": true
     },
-    "Summary": {
+    "summary": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -116,19 +116,18 @@
       "type": "richtext",
       "required": true
     },
-    "Tags": {
-      "via": "Recipes",
+    "tags": {
+      "via": "recipes",
       "collection": "tags",
       "dominant": true
     },
-    "Slug": {
+    "slug": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
       "type": "uid",
-      "targetField": "Title",
       "required": true
     }
   }

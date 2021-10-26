@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "Title": {
+    "title": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -25,7 +25,7 @@
       "type": "string",
       "required": true
     },
-    "Body": {
+    "body": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -33,7 +33,7 @@
       },
       "type": "richtext"
     },
-    "MediaImage": {
+    "media_image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -47,19 +47,18 @@
         }
       }
     },
-    "Tags": {
-      "via": "Articles",
+    "tags": {
+      "via": "articles",
       "collection": "tags",
       "dominant": true
     },
-    "Slug": {
+    "slug": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
       "type": "uid",
-      "targetField": "Title",
       "required": true
     }
   }

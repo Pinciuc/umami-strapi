@@ -530,44 +530,47 @@
       "Recipe-category": {
         "required": [
           "id",
-          "Name",
-          "Slug"
+          "name",
+          "slug"
         ],
         "properties": {
           "id": {
             "type": "string"
           },
-          "Name": {
+          "name": {
             "type": "string"
           },
-          "Description": {
+          "description": {
             "type": "string"
           },
-          "Recipes": {
+          "slug": {
+            "type": "uid"
+          },
+          "recipes": {
             "type": "array",
             "items": {
               "required": [
                 "id",
-                "Title",
-                "Difficulty",
-                "MediaImage",
-                "NumberOfServings",
-                "PreparationTime",
-                "RecipeInstruction",
-                "Summary",
-                "Slug"
+                "title",
+                "difficulty",
+                "media_image",
+                "number_of_servings",
+                "preparation_time",
+                "recipe_instruction",
+                "summary",
+                "slug"
               ],
               "properties": {
                 "id": {
                   "type": "string"
                 },
-                "Title": {
+                "title": {
                   "type": "string"
                 },
-                "CookingTime": {
+                "cooking_time": {
                   "type": "integer"
                 },
-                "Difficulty": {
+                "difficulty": {
                   "type": "string",
                   "enum": [
                     "Easy",
@@ -575,37 +578,37 @@
                     "Hard"
                   ]
                 },
-                "Ingredients": {
+                "ingredients": {
                   "type": "component"
                 },
-                "MediaImage": {
+                "media_image": {
                   "type": "string"
                 },
-                "NumberOfServings": {
+                "number_of_servings": {
                   "type": "integer"
                 },
-                "PreparationTime": {
+                "preparation_time": {
                   "type": "integer"
                 },
-                "RecipeCategories": {
+                "recipe_categories": {
                   "type": "array",
                   "items": {
                     "type": "string"
                   }
                 },
-                "RecipeInstruction": {
+                "recipe_instruction": {
                   "type": "string"
                 },
-                "Summary": {
+                "summary": {
                   "type": "string"
                 },
-                "Tags": {
+                "tags": {
                   "type": "array",
                   "items": {
                     "type": "string"
                   }
                 },
-                "Slug": {
+                "slug": {
                   "type": "uid"
                 },
                 "localizations": {
@@ -629,35 +632,32 @@
               }
             }
           },
-          "Slug": {
-            "type": "uid"
-          },
           "localizations": {
             "type": "array",
             "items": {
               "required": [
                 "id",
-                "Name",
-                "Slug"
+                "name",
+                "slug"
               ],
               "properties": {
                 "id": {
                   "type": "string"
                 },
-                "Name": {
+                "name": {
                   "type": "string"
                 },
-                "Description": {
+                "description": {
                   "type": "string"
                 },
-                "Recipes": {
+                "slug": {
+                  "type": "uid"
+                },
+                "recipes": {
                   "type": "array",
                   "items": {
                     "type": "string"
                   }
-                },
-                "Slug": {
-                  "type": "uid"
                 },
                 "localizations": {
                   "type": "array",
@@ -684,24 +684,24 @@
       },
       "NewRecipe-category": {
         "required": [
-          "Name",
-          "Slug"
+          "name",
+          "slug"
         ],
         "properties": {
-          "Name": {
+          "name": {
             "type": "string"
           },
-          "Description": {
+          "description": {
             "type": "string"
           },
-          "Recipes": {
+          "slug": {
+            "type": "uid"
+          },
+          "recipes": {
             "type": "array",
             "items": {
               "type": "string"
             }
-          },
-          "Slug": {
-            "type": "uid"
           },
           "localizations": {
             "type": "array",
