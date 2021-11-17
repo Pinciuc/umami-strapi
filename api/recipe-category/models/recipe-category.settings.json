@@ -40,7 +40,8 @@
         }
       },
       "type": "uid",
-      "required": true
+      "required": true,
+      "targetField": "name"
     },
     "recipes": {
       "via": "recipe_categories",

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_menu_item_components_page_links",
+  "info": {
+    "name": "Page-Link",
+    "icon": "pager",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "page": {
+      "model": "page"
+    }
+  }
+}

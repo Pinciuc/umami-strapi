@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_menu_item_components_recipe_links",
+  "info": {
+    "name": "Recipe-Link",
+    "icon": "receipt"
+  },
+  "options": {},
+  "attributes": {
+    "recipe": {
+      "model": "recipe"
+    }
+  }
+}

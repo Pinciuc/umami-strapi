@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_menu_item_components_article_links",
+  "info": {
+    "name": "Article-Link",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "article": {
+      "model": "article"
+    }
+  }
+}

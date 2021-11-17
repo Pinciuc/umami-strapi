@@ -59,7 +59,8 @@
         }
       },
       "type": "uid",
-      "required": true
+      "required": true,
+      "targetField": "title"
     }
   }
 }
