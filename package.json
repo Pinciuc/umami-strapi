@@ -9,9 +9,10 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
+  "devDependencies": {},
   "dependencies": {
     "knex": "0.21.18",
-    "sqlite3": "5.0.0",
+    "mysql": "2.18.1",
     "strapi": "3.6.8",
     "strapi-admin": "3.6.8",
     "strapi-connector-bookshelf": "3.6.8",
@@ -29,7 +30,7 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "67186315-ca57-471a-aebf-7e4d860e829c"
+    "uuid": "3157f001-a158-44c2-b004-4f954b35c2a4"
   },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
